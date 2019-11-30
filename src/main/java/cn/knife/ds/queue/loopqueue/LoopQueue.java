@@ -3,7 +3,7 @@ package cn.knife.ds.queue.loopqueue;
 import cn.knife.ds.queue.Queue;
 
 /**
- * description:  package cn.knife.ds.queue.loopqueue; <br>
+ * description:  循环队列; <br>
  * date: 2019/11/30 22:20 <br>
  * author: knife <br>
  * version: 1.0 <br>
