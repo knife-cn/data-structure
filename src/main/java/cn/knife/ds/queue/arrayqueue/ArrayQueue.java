@@ -42,6 +42,7 @@ public class ArrayQueue<E> implements Queue<E> {
 
     /**
      * 时间复杂度 O(n)
+     *
      * @return
      */
     @Override
