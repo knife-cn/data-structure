@@ -2,6 +2,7 @@ package cn.knife.ds.test;
 
 import cn.knife.ds.queue.Queue;
 import cn.knife.ds.queue.arrayqueue.ArrayQueue;
+import cn.knife.ds.queue.linkedlistqueue.LinkedListQueue;
 import cn.knife.ds.queue.loopqueue.LoopQueue;
 
 import java.util.Random;
@@ -41,5 +42,8 @@ public class QueueCompareTest {
         LoopQueue<Integer> loopQueue = new LoopQueue<>();
         double time2 = testQueue(loopQueue, opCount);
         System.out.println("LoopQueue, time: " + time2 + " s");
+        LinkedListQueue<Integer> linkedListQueue = new LinkedListQueue<>();
+        double time3 = testQueue(linkedListQueue, opCount);
+        System.out.println("LinkedListQueue, time: " + time3 + " s");
     }
 }

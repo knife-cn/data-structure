@@ -8,8 +8,8 @@ package cn.knife.ds.linkedlist;
  */
 public class Node<E> {
 
-    E e;
-    Node next;
+    public E e;
+    public Node<E> next;
 
     public Node(E e, Node next) {
         this.e = e;
